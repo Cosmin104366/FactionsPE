@@ -12,14 +12,12 @@
 ## @author Chris Prime
 ## @link https://github.com/Chris-Prime/FactionsPE
 ##
-name: FactionsPE
-author: BlockHorizons
-authors:
-- Chris-Prime (@PrimusLV, @flipkris)
-- Sandertv (@Sandertv)
+name: FactionsPlugin
+author: Cosmin
+authors: Rose and Cosmin
 api: [3.0.0, 4.0.0]
 main: factions\FactionsPE
-version: 1.2.4
+version: MagicLounge
 softdepend: [EconomyAPI, MassiveEconomy, PocketMoney, GoldStd, PureChat, PurePerms, FormAPI]
 
 permissions:
@@ -108,5 +106,5 @@ permissions:
       factions.unclaim.all: {description: unclaim all faction land, default: true}
       factions.unsethome: {description: unset faction home, default: true}
       factions.unstuck: {description: teleport to nearest wilderness, default: true}
-      factions.version: {description: see plugin version, default: true}
+      factions.version: {description: see plugin version, default: op}
       factions.help: {description: see list of avaliable sub-commands, default: true}
